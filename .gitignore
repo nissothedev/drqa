@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+.vite
+coverage
+
+# Local overrides
+*.local
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets/
+credentials*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
